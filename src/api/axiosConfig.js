@@ -20,7 +20,7 @@ const getToken = (tokenfake) => {
 
 
 const axiosConfig = axios.create({
-    baseURL: "http://localhost:8000",
+    baseURL: "https://eshop-code-app.herokuapp.com",
     headers: { 'Authorization': getToken(tokenfake) }
 })
 
