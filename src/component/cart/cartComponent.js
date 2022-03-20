@@ -21,7 +21,7 @@ export default function CartComponent() {
     const dispatch = useDispatch()
     const cart = useSelector((state) => state.cartItem)
     const { authState: { loading, isAuthencation, user } } = useContext(AuthContext)
-    console.log(isAuthencation, 'ss');
+    // console.log(isAuthencation, 'ss');
     const [show, setShow] = useState(false)
     const [coupon, setCoupon] = useState([])
     const [couponApplyTotal, setApplyTotal] = useState()
